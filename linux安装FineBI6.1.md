@@ -1,4 +1,4 @@
-```
+```shell
 [root@localhost /]# cd /home/BI
 [root@localhost BI]# ls
 jdk-8u202-linux-x64.tar.gz  linux_unix_FineBI6_1-CN.sh
