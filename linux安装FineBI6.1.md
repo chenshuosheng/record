@@ -1,3 +1,7 @@
+报表官方文档： https://help.fanruan.com/finebi/doc-view-260.html
+
+安装过程如下：
+
 ```shell
 [root@localhost /]# cd /home/BI
 [root@localhost BI]# ls
@@ -252,5 +256,28 @@ y
 
 服务管理（启动停止）
 https://help.fanruan.com/finebi/doc-view-24.html
+```
+
+
+
+额外配置
+
+```shell
+0.安装java环境
+sudo tar zxvf jdk-8u202-linux-x64.tar.gz -C /usr/lib/jvm/
+
+0.1设置环境变量
+export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_202
+export PATH=$JAVA_HOME/bin:$PATH
+
+
+1. 安装字体
+sudo yum install wqy-zenhei-fonts wqy-microhei-fonts
+
+2. 安装 fontconfig 工具包，使用 fc-cache 命令来更新字体缓存
+sudo yum install fontconfig
+
+3. 更新字体缓存：
+sudo fc-cache -fv
 ```
 
