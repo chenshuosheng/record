@@ -1,0 +1,22 @@
+﻿#启动sscms服务，数据库用pg，sscms版本为7.3
+version: "3"
+networks:
+  servicenet:
+    external: true
+services: 
+  site-server:
+    image: sscms:7.3
+    ports:
+      - "5000:80"  
+    restart: "always"								#自动启动
+    container_name: site-server
+    environment:
+      - TZ=Asia/Shanghai
+      - SLEEP_SECOND=5 
+    volumes:  
+      - /home/4.5/data/sscms7.3_pg/wwwroot:/var/www/wwwroot
+      - /home/4.5/jars/wait.sh:/wait.sh
+      - /home/4.5/data/sscms7.3_pg/sscms/log:/log
+    entrypoint: /wait.sh -d pg_for_sscms:5432 -c "service nginx restart && cd /var/www && dotnet SSCMS.Web.dll"
+    networks:
+     servicenet: {}

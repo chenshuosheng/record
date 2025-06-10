@@ -1,0 +1,23 @@
+version: "3"
+services:
+  nginx:
+    container_name: nginx
+    image: nginx:latest
+    restart: always
+    ports:
+      - 80:80
+      #- 39001:39001
+      - 50109:50109
+      #- 39002:39002
+      - 50110:50110
+    volumes:
+      - /home/4.5/data/nginx/log:/var/log/nginx
+      - /home/4.5/data/nginx/nginx.conf:/etc/nginx/nginx.conf
+      - /home/4.5/data/nginx/ssl:/etc/nginx/ssl
+      - /home/4.5/data/nginx/conf.d:/etc/nginx/conf.d
+      - /home/4.5/data/nginx/html:/usr/share/nginx/html
+    networks:
+      servicenet: {}
+networks:
+  servicenet:
+    external: true

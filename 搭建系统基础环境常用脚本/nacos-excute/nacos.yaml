@@ -1,0 +1,28 @@
+version: "3"
+networks:
+  servicenet:
+    external: true
+services:
+  nacos:
+    image: nacos:bycss
+    ports:
+      - "9003:8848"
+    restart: always
+    container_name: nacos
+    environment:
+      TZ: Asia/Shanghai
+      SLEEP_SECOND: 5
+      SPRING_DATASOURCE_PLATFORM: postgresql
+      DB_POOL_CONfIG_DRIVERCLASSNAME: org.postgresql.Driver
+      DB_URL_0: jdbc:postgresql://postgres:5432/root?currentSchema=nacos
+      DB_USER: root
+      DB_PASSWORD: Xinxibu1717...
+    volumes:
+      - /home/4.5/data/nacos/logs:/nacos/logs
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    networks:
+      servicenet: {}
