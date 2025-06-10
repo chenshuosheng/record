@@ -1,0 +1,26 @@
+version: "3"
+networks:
+  servicenet:
+    external: true
+services:
+  rabbitmq:
+    image: rabbitmq:latest
+    container_name: rabbitmq
+    restart: always
+    environment:
+      RABBITMQ_DEFAULT_USER: 'administrator'
+      RABBITMQ_DEFAULT_PASS: 'Xinxibu1717...'
+    ports:
+      - "15672:15672"
+      - "5672:5672"
+    volumes:
+      - "/mnt/database/rabbitmq/conf:/etc/rabbitmq"
+      #- "/mnt/database/rabbitmq/data:/var/lib/rabbitmq"
+      #- "/mnt/database/rabbitmq/log:/var/log/rabbitmq"
+    logging:
+      driver: json-file
+      options:
+        max-size: "100m"
+        max-file: "2"
+    networks:
+      servicenet: {}

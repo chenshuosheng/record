@@ -1,0 +1,28 @@
+﻿version: "3"
+networks:
+  servicenet:
+    external: true
+services:
+  postgres:
+    image: postgres:14.7
+    container_name: postgres
+    restart: always
+    environment:
+      POSTGRES_DB: root
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: 'Xinxibu1717...'
+      TZ: Asia/Shanghai
+      #POSTGRES_MAX_CONNECTIONS: 10000   最大连接数，在这配置无效，应在postgresql.conf 文件 修改(启动后替换挂载目录下文件，现在的最大连接数是10000)， 默认为100
+      #POSTGRES_SHARED_BUFFERS: 2GB
+    ports:
+      - "23456:5432"
+    volumes:
+      - "/mnt/database/postgres/pgdata:/var/lib/postgresql/data"
+      - "/mnt/database/postgres/pglogs:/var/log/postgresql"
+    logging:
+      driver: json-file
+      options:
+        max-size: "100m"
+        max-file: "2"
+    networks:
+      servicenet: {}

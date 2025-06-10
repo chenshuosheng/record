@@ -1,0 +1,26 @@
+version: "3"
+networks:
+  servicenet:
+    external: true
+services:
+  pg_for_sscms:
+    image: postgres:14.7
+    container_name: pg_for_sscms
+    restart: always
+    environment:
+      POSTGRES_DB: root
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: 'Xinxibu1717...'
+      TZ: Asia/Shanghai
+    ports:
+      - "23457:5432"
+    volumes:
+      - "/mnt/database/pg-site-server/pgdata:/var/lib/postgresql/data"
+      - "/mnt/database/pg-site-server/pglogs:/var/log/postgresql"
+    logging:
+      driver: json-file
+      options:
+        max-size: "100m"
+        max-file: "2"
+    networks:
+      servicenet: {}
