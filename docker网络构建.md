@@ -3,7 +3,8 @@ docker网络构建
 1. 创建管理节点
 
    ```shell
-   #!/bin/bash
+   #!/bin/bash   
+   #create-docker-network.sh 
    
    # 获取脚本所在目录
    SCRIPT_DIR=$(dirname $(readlink -f $0))
@@ -51,8 +52,8 @@ docker网络构建
    
        docker swarm join --token SWMTKN-1-5q0e8640f0pf4wuuashcmvy7o88ggqhunplvqgecf2nukls083-9cfjftz99m0ote2ax0aghgr8f 管理节点ip:2377
        
-   # 运行下面命令加入
-   sudo docker swarm join --token SWMTKN-1-5q0e8640f0pf4wuuashcmvy7o88ggqhunplvqgecf2nukls083-9cfjftz99m0ote2ax0aghgr8f 管理节点ip:2377
+   # 在工作节点worker运行下面命令加入
+   sudo docker swarm join --token SWMTKN-1-5q0e8640f0pf4wuuashcmvy7o88ggqhunplvqgecf2nukls083-9cfjftz99m0ote2ax0aghgr8f  --advertise-addr worker节点ip 管理节点ip:2377
    
    # 在管理节点验证节点状态
    sudo docker node ls
@@ -104,7 +105,7 @@ nc -zv 192.168.218.217 2377
 
 ```shell
 # 创建docker网络，并作为主节点
-[css@localhost init-data]$ ./03-create-docker-network.sh 
+[css@localhost init-data]$ ./create-docker-network.sh 
 ./03-create-docker-network.sh:行1: ﻿#!/bin/bash: 没有那个文件或目录
 Swarm is inactive. Initializing Swarm as a manager...
 Swarm initialized: current node (haj0oml22vs3p0t0kw49er54j) is now a manager.
@@ -208,7 +209,7 @@ Server:
 
 
 # 在工作节点服务器执行
-docker swarm join --token SWMTKN-1-4aobq9e1udawume3tsn2pq1nod4lgrds4fzunzrm98awvemxbl-0nyj7yuksht675pwa6svbfc8z 192.168.43.182:2377
+docker swarm join --token SWMTKN-1-4aobq9e1udawume3tsn2pq1nod4lgrds4fzunzrm98awvemxbl-0nyj7yuksht675pwa6svbfc8z worker节点ip 192.168.43.182:2377    # 不指定worker节点ip，可能导致不同节点的docker服务无法通信
 
 返回：This node joined a swarm as a worker.说明加入网络成功
 
@@ -250,5 +251,79 @@ c89b1eb4d020   none              null      local
 cd27mqzbggq6   servicenet        overlay   swarm
 
 
+
+
+离开当前 Swarm 集群的命令
+docker swarm leave 
+
+在管理节点上操作，并且该节点是管理节点，则添加 --force 参数：
+docker swarm leave --force
+
+
+命令								用途
+docker node ls					列出所有节点
+docker node inspect <node_id>	查看节点详细信息
+docker info						查看本机节点角色和集群信息
+docker service ps <svc>			查看服务在哪些节点上运行
+docker task ls					查看所有任务及其所在节点
+```
+
+
+
+如果发现定义网络时，IP指定错了，则按下面步骤进行修改
+
+```shell
+1. worker节点先离开集群
+docker swarm leave
+
+2. 管理节点强制离开集群
+docker swarm leave --force
+
+3. 重新初始化或加入 Swarm 集群（使用新 IP）
+docker swarm init --advertise-addr 10.6.56.48
+
+# 创建网络
+echo "Creating network 'servicenet'..."
+sudo docker network create \
+    --driver overlay \
+    --opt encrypted \
+    --subnet=172.16.0.0/16 \
+    --ip-range=172.16.5.0/24 \
+    --gateway=172.16.5.254 \
+    --attachable \
+    servicenet
+
+4. 在管理节点上获取加入命令（token）
+docker swarm join-token worker
+## 工作节点 10.6.56.48 上运行输出的 docker swarm join ... 命令，并加上 --advertise-addr 参数：
+
+5. 在worker节点上执行
+docker swarm join --token SWMTKN-1-xxx 10.6.56.48:2377 --advertise-addr 10.6.56.49
+
+6. 升级工作节点为管理节点
+[root@localhost home]# docker node ls
+ID                            HOSTNAME    STATUS    AVAILABILITY   MANAGER STATUS   ENGINE VERSION
+0stnw6fnzy5mif4nkhe3zivc7     localhost   Ready     Active                          26.1.4
+wte1iibeya81n8bl37jfoud74 *   localhost   Ready     Active         Leader           26.1.4
+[root@localhost home]#  sudo docker node promote 0stnw6fnzy5mif4nkhe3zivc7
+```
+
+
+
+
+
+补充
+
+```shell
+将节点降级
+docker node update --role worker wte1iibeya81n8bl37jfoud74
+
+再在相应节点上执行
+[root@localhost install-data]#  docker swarm leave
+#Node left the swarm.
+
+然后在管理节点删除down的节点
+[root@localhost home]# docker node rm wte1iibeya81n8bl37jfoud74
+wte1iibeya81n8bl37jfoud74
 ```
 
