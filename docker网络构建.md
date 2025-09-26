@@ -327,3 +327,224 @@ docker node update --role worker wte1iibeya81n8bl37jfoud74
 wte1iibeya81n8bl37jfoud74
 ```
 
+
+
+### **查看当前主机名**
+
+#### 方法 1：使用 `hostname` 命令
+
+```
+hostname
+```
+
+直接显示当前主机名（如 `localhost.localdomain`）。
+
+#### 方法 2：使用 `hostnamectl` 命令
+
+```
+hostnamectl
+```
+
+显示详细信息，包括静态主机名（`Static hostname`）、操作系统版本等。
+
+#### 方法 3：查看 `/etc/hostname` 文件
+
+```
+cat /etc/hostname
+```
+
+此文件存储永久主机名配置。
+
+------
+
+
+
+### **永久修改主机名**
+
+#### 步骤 1：使用 `hostnamectl` 修改（推荐）
+
+```
+sudo hostnamectl set-hostname <新主机名>
+```
+
+例如：
+
+```
+sudo hostnamectl set-hostname node3
+```
+
+#### 步骤 2：更新 `/etc/hosts` 文件
+
+```
+sudo vi /etc/hosts
+```
+
+将旧主机名替换为新主机名（通常在 `127.0.1.1` 行）：
+
+```
+- 127.0.1.1   localhost.localdomain
++ 127.0.1.1   node3
+```
+
+#### 步骤 3：重启系统或 Docker 服务
+
+```
+sudo systemctl restart docker  # 重启 Docker 使新主机名生效
+```
+
+或完全重启系统：
+
+```
+sudo reboot
+```
+
+
+
+
+
+### 完整修复步骤
+
+#### 1. 在所有节点配置主机名解析
+
+```
+# 在 node1 (10.20.27.51) 上执行
+sudo tee -a /etc/hosts <<EOF
+10.20.27.51 node1
+10.20.27.52 node2
+10.20.27.53 node3
+EOF
+
+# 在 node2 (10.20.27.52) 上执行
+sudo tee -a /etc/hosts <<EOF
+10.20.27.51 node1
+10.20.27.52 node2
+10.20.27.53 node3
+EOF
+
+# 在 node3 (10.20.27.53) 上执行
+sudo tee -a /etc/hosts <<EOF
+10.20.27.51 node1
+10.20.27.52 node2
+10.20.27.53 node3
+EOF
+```
+
+#### 2. 设置唯一主机名
+
+```
+# 在 node1 上执行
+sudo hostnamectl set-hostname node1
+
+# 在 node2 上执行
+sudo hostnamectl set-hostname node2
+
+# 在 node3 上执行
+sudo hostnamectl set-hostname node3
+```
+
+#### 3. 重启 Docker 服务
+
+```
+# 在所有节点执行
+sudo systemctl restart docker
+```
+
+#### 4. 重置 Swarm 集群
+
+```
+# 在 node1 上执行
+docker swarm leave --force
+sudo rm -rf /var/lib/docker/swarm/*
+docker swarm init --advertise-addr 10.20.27.51
+
+# 在 node2 上执行
+docker swarm leave --force
+sudo rm -rf /var/lib/docker/swarm/*
+
+# 在 node3 上执行
+docker swarm leave --force
+sudo rm -rf /var/lib/docker/swarm/*
+```
+
+#### 5. 重新加入集群
+
+```
+# 在 node1 上获取加入令牌
+docker swarm join-token worker
+
+# 在 node2 和 node3 上执行加入命令
+docker swarm join --token <TOKEN> node1:2377
+
+docker swarm join --token SWMTKN-1-3144o9zpog2agp3xfgb0n1r0igmmvwu757n805v2hmbo1o498l-0ybged5pkmfa70cxti7yf18hm 10.20.27.51:2377 --advertise-addr 10.20.27.52
+```
+
+#### 6. 提升节点为管理节点
+
+```
+# 在 node1 上执行
+docker node promote node2
+docker node promote node3
+```
+
+### 验证步骤
+
+#### 1. 检查主机名解析
+
+```
+# 在所有节点执行
+ping node1 -c 3
+ping node2 -c 3
+ping node3 -c 3
+```
+
+#### 2. 检查集群状态
+
+```
+# 在 node1 上执行
+docker node ls
+
+# 预期输出：
+ID                            HOSTNAME  STATUS  AVAILABILITY  MANAGER STATUS
+sefv... *      node1    Ready   Active        Leader
+z9sz...        node2    Ready   Active        Reachable
+hare...        node3    Ready   Active        Reachable
+```
+
+#### 3. 测试集群通信
+
+```
+# 创建测试服务
+docker service create --name test --replicas 3 alpine ping docker.com
+
+# 检查服务状态
+docker service ps test
+```
+
+### 防火墙配置（所有节点）
+
+```
+sudo firewall-cmd --permanent --add-port=2377/tcp
+sudo firewall-cmd --permanent --add-port=7946/tcp
+sudo firewall-cmd --permanent --add-port=7946/udp
+sudo firewall-cmd --permanent --add-port=4789/udp
+sudo firewall-cmd --reload
+```
+
+### 重要注意事项
+
+1. **配置一致性**：确保所有节点的 `/etc/hosts` 文件内容完全一致
+
+2. **主机名唯一性**：每个节点必须有唯一主机名
+
+3. **时间同步**：确保所有节点时间一致
+
+   ```
+   sudo yum install -y chrony
+   sudo systemctl start chronyd
+   sudo systemctl enable chronyd
+   ```
+
+4. **持久化配置**：修改 `/etc/hosts` 后不需要重启，但主机名修改需要重启 Docker
+
+
+

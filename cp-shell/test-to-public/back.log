@@ -1,0 +1,74 @@
+2025-07-10 11:02:36 | 恢复脚本开始执行...
+2025-07-10 11:02:36 | 处理备份目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidDocUploadAuto/public20250710110023
+2025-07-10 11:02:36 | 发现当前 public 目录，正在备份为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidDocUploadAuto/public_back_20250710110236
+2025-07-10 11:02:36 | 已备份当前 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidDocUploadAuto/public_back_20250710110236
+2025-07-10 11:02:36 | 成功将 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidDocUploadAuto/public20250710110023 恢复为 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidDocUploadAuto/public
+2025-07-10 11:02:36 | 处理备份目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/submitTenderDoc/public20250710110023
+2025-07-10 11:02:36 | 发现当前 public 目录，正在备份为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/submitTenderDoc/public_back_20250710110236
+2025-07-10 11:02:36 | 已备份当前 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/submitTenderDoc/public_back_20250710110236
+2025-07-10 11:02:36 | 成功将 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/submitTenderDoc/public20250710110023 恢复为 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/submitTenderDoc/public
+2025-07-10 11:02:36 | 处理备份目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/encryptDecryptFile/public20250710110024
+2025-07-10 11:02:36 | 发现当前 public 目录，正在备份为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/encryptDecryptFile/public_back_20250710110236
+2025-07-10 11:02:36 | 已备份当前 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/encryptDecryptFile/public_back_20250710110236
+2025-07-10 11:02:36 | 成功将 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/encryptDecryptFile/public20250710110024 恢复为 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/encryptDecryptFile/public
+2025-07-10 11:02:36 | 处理备份目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/noticeNet/public20250710110024
+2025-07-10 11:02:36 | 发现当前 public 目录，正在备份为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/noticeNet/public_back_20250710110236
+2025-07-10 11:02:36 | 已备份当前 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/noticeNet/public_back_20250710110236
+2025-07-10 11:02:36 | 成功将 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/noticeNet/public20250710110024 恢复为 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/noticeNet/public
+2025-07-10 11:02:36 | 处理备份目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallSupplier/public20250710110025
+2025-07-10 11:02:36 | 发现当前 public 目录，正在备份为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallSupplier/public_back_20250710110236
+2025-07-10 11:02:36 | 已备份当前 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallSupplier/public_back_20250710110236
+2025-07-10 11:02:36 | 成功将 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallSupplier/public20250710110025 恢复为 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallSupplier/public
+2025-07-10 11:02:36 | 处理备份目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/signUpVerify/public20250710110026
+2025-07-10 11:02:36 | 发现当前 public 目录，正在备份为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/signUpVerify/public_back_20250710110236
+2025-07-10 11:02:36 | 已备份当前 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/signUpVerify/public_back_20250710110236
+2025-07-10 11:02:36 | 成功将 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/signUpVerify/public20250710110026 恢复为 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/signUpVerify/public
+2025-07-10 11:02:36 | 处理备份目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/templateApplication/public20250710110026
+2025-07-10 11:02:36 | 发现当前 public 目录，正在备份为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/templateApplication/public_back_20250710110236
+2025-07-10 11:02:36 | 已备份当前 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/templateApplication/public_back_20250710110236
+2025-07-10 11:02:36 | 成功将 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/templateApplication/public20250710110026 恢复为 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/templateApplication/public
+2025-07-10 11:02:36 | 处理备份目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/supplierViewResult/public20250710110027
+2025-07-10 11:02:36 | 发现当前 public 目录，正在备份为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/supplierViewResult/public_back_20250710110236
+2025-07-10 11:02:36 | 已备份当前 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/supplierViewResult/public_back_20250710110236
+2025-07-10 11:02:36 | 成功将 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/supplierViewResult/public20250710110027 恢复为 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/supplierViewResult/public
+2025-07-10 11:02:36 | 处理备份目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/winNoticeSend/public20250710110027
+2025-07-10 11:02:36 | 发现当前 public 目录，正在备份为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/winNoticeSend/public_back_20250710110236
+2025-07-10 11:02:36 | 已备份当前 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/winNoticeSend/public_back_20250710110236
+2025-07-10 11:02:36 | 成功将 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/winNoticeSend/public20250710110027 恢复为 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/winNoticeSend/public
+2025-07-10 11:02:36 | 处理备份目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallEntry/public20250710110027
+2025-07-10 11:02:36 | 发现当前 public 目录，正在备份为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallEntry/public_back_20250710110236
+2025-07-10 11:02:36 | 已备份当前 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallEntry/public_back_20250710110236
+2025-07-10 11:02:36 | 成功将 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallEntry/public20250710110027 恢复为 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallEntry/public
+2025-07-10 11:02:36 | 处理备份目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/resultNotice/public20250710110027
+2025-07-10 11:02:36 | 发现当前 public 目录，正在备份为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/resultNotice/public_back_20250710110236
+2025-07-10 11:02:36 | 已备份当前 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/resultNotice/public_back_20250710110236
+2025-07-10 11:02:36 | 成功将 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/resultNotice/public20250710110027 恢复为 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/resultNotice/public
+2025-07-10 11:02:36 | 处理备份目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/eleSign/public20250710110028
+2025-07-10 11:02:36 | 发现当前 public 目录，正在备份为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/eleSign/public_back_20250710110236
+2025-07-10 11:02:36 | 已备份当前 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/eleSign/public_back_20250710110236
+2025-07-10 11:02:36 | 成功将 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/eleSign/public20250710110028 恢复为 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/eleSign/public
+2025-07-10 11:02:36 | 处理备份目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/winSure/public20250710110028
+2025-07-10 11:02:36 | 发现当前 public 目录，正在备份为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/winSure/public_back_20250710110236
+2025-07-10 11:02:36 | 已备份当前 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/winSure/public_back_20250710110236
+2025-07-10 11:02:36 | 成功将 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/winSure/public20250710110028 恢复为 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/winSure/public
+2025-07-10 11:02:36 | 处理备份目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/supplierSignUp/public20250710110028
+2025-07-10 11:02:36 | 发现当前 public 目录，正在备份为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/supplierSignUp/public_back_20250710110236
+2025-07-10 11:02:36 | 已备份当前 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/supplierSignUp/public_back_20250710110236
+2025-07-10 11:02:36 | 成功将 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/supplierSignUp/public20250710110028 恢复为 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/supplierSignUp/public
+2025-07-10 11:02:36 | 处理备份目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/projectSet/public20250710110029
+2025-07-10 11:02:36 | 发现当前 public 目录，正在备份为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/projectSet/public_back_20250710110236
+2025-07-10 11:02:36 | 已备份当前 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/projectSet/public_back_20250710110236
+2025-07-10 11:02:36 | 成功将 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/projectSet/public20250710110029 恢复为 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/projectSet/public
+2025-07-10 11:02:36 | 处理备份目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/fileTemplateAuto/public20250710110029
+2025-07-10 11:02:36 | 发现当前 public 目录，正在备份为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/fileTemplateAuto/public_back_20250710110236
+2025-07-10 11:02:36 | 已备份当前 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/fileTemplateAuto/public_back_20250710110236
+2025-07-10 11:02:36 | 成功将 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/fileTemplateAuto/public20250710110029 恢复为 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/fileTemplateAuto/public
+2025-07-10 11:02:36 | 处理备份目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/modifyNotice/public20250710110030
+2025-07-10 11:02:36 | 发现当前 public 目录，正在备份为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/modifyNotice/public_back_20250710110236
+2025-07-10 11:02:36 | 已备份当前 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/modifyNotice/public_back_20250710110236
+2025-07-10 11:02:36 | 成功将 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/modifyNotice/public20250710110030 恢复为 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/modifyNotice/public
+2025-07-10 11:02:36 | 处理备份目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallScreen/public20250710110030
+2025-07-10 11:02:36 | 发现当前 public 目录，正在备份为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallScreen/public_back_20250710110236
+2025-07-10 11:02:36 | 已备份当前 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallScreen/public_back_20250710110236
+2025-07-10 11:02:36 | 成功将 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallScreen/public20250710110030 恢复为 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallScreen/public
+2025-07-10 11:02:36 | 恢复脚本执行完成。

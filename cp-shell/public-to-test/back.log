@@ -1,0 +1,130 @@
+2025-07-10 10:36:15 | 恢复脚本开始执行...
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/lxBidding/lxProjectList_purchaser/test20250710103425
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/lxBidding/lxProjectList_purchaser/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/lxBidding/lxProjectList_purchaser/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/lxBidding/lxProjectList_purchaser/test20250710103425 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/lxBidding/lxProjectList_purchaser/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/lxBidding/lxSupplierSignUp/test20250710103426
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/lxBidding/lxSupplierSignUp/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/lxBidding/lxSupplierSignUp/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/lxBidding/lxSupplierSignUp/test20250710103426 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/lxBidding/lxSupplierSignUp/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/lxBidding/lxAgentExtractionList/test20250710103427
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/lxBidding/lxAgentExtractionList/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/lxBidding/lxAgentExtractionList/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/lxBidding/lxAgentExtractionList/test20250710103427 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/lxBidding/lxAgentExtractionList/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/lxBidding/lxProjectList_supplierResult/test20250710103427
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/lxBidding/lxProjectList_supplierResult/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/lxBidding/lxProjectList_supplierResult/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/lxBidding/lxProjectList_supplierResult/test20250710103427 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/lxBidding/lxProjectList_supplierResult/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/lxBidding/lxProjectList_supplierSignUp/test20250710103427
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/lxBidding/lxProjectList_supplierSignUp/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/lxBidding/lxProjectList_supplierSignUp/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/lxBidding/lxProjectList_supplierSignUp/test20250710103427 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/lxBidding/lxProjectList_supplierSignUp/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/externalPurchase/createProject/test20250710103427
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/externalPurchase/createProject/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/externalPurchase/createProject/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/externalPurchase/createProject/test20250710103427 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/externalPurchase/createProject/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/externalPurchase/projectDetail/test20250710103427
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/externalPurchase/projectDetail/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/externalPurchase/projectDetail/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/externalPurchase/projectDetail/test20250710103427 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/externalPurchase/projectDetail/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/externalPurchase/processNode/test20250710103427
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/externalPurchase/processNode/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/externalPurchase/processNode/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/externalPurchase/processNode/test20250710103427 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/externalPurchase/processNode/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/dljgConfirmResult/test20250710103428
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/dljgConfirmResult/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/dljgConfirmResult/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/dljgConfirmResult/test20250710103428 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/dljgConfirmResult/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/contractNotice/test20250710103428
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/contractNotice/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/contractNotice/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/contractNotice/test20250710103428 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/contractNotice/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/noticeNet/test20250710103428
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/noticeNet/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/noticeNet/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/noticeNet/test20250710103428 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/noticeNet/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/createProject/test20250710103428
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/createProject/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/createProject/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/createProject/test20250710103428 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/createProject/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/quoteAudit/test20250710103429
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/quoteAudit/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/quoteAudit/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/quoteAudit/test20250710103429 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/quoteAudit/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/publishResultNotice/test20250710103429
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/publishResultNotice/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/publishResultNotice/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/publishResultNotice/test20250710103429 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/publishResultNotice/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/jsjkReport/test20250710103429
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/jsjkReport/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/jsjkReport/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/jsjkReport/test20250710103429 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/jsjkReport/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/modifyNotice/test20250710103429
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/modifyNotice/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/modifyNotice/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/modifyNotice/test20250710103429 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/selfOrEntrustedBiddingLite/modifyNotice/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/purchaseIntention/supplierPurchaseIntention/test20250710103429
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/purchaseIntention/supplierPurchaseIntention/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/purchaseIntention/supplierPurchaseIntention/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/purchaseIntention/supplierPurchaseIntention/test20250710103429 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/purchaseIntention/supplierPurchaseIntention/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/purchaseIntention/publishPurchaseIntention/test20250710103430
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/purchaseIntention/publishPurchaseIntention/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/purchaseIntention/publishPurchaseIntention/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/purchaseIntention/publishPurchaseIntention/test20250710103430 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/purchaseIntention/publishPurchaseIntention/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/purchaseIntention/purchaseIntentionList/test20250710103430
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/purchaseIntention/purchaseIntentionList/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/purchaseIntention/purchaseIntentionList/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/purchaseIntention/purchaseIntentionList/test20250710103430 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/purchaseIntention/purchaseIntentionList/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/purchaseIntention/purchaseIntentionReport/test20250710103430
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/purchaseIntention/purchaseIntentionReport/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/purchaseIntention/purchaseIntentionReport/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/purchaseIntention/purchaseIntentionReport/test20250710103430 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/purchaseIntention/purchaseIntentionReport/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/purchaseIntention/purchaseIntentionDetail/test20250710103431
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/purchaseIntention/purchaseIntentionDetail/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/purchaseIntention/purchaseIntentionDetail/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/purchaseIntention/purchaseIntentionDetail/test20250710103431 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/purchaseIntention/purchaseIntentionDetail/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/researchProjectList/test20250710103431
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/researchProjectList/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/researchProjectList/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/researchProjectList/test20250710103431 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/researchProjectList/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/createProject/test20250710103432
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/createProject/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/createProject/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/createProject/test20250710103432 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/createProject/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/projectDetail/test20250710103432
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/projectDetail/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/projectDetail/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/projectDetail/test20250710103432 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/projectDetail/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/simpleResearchSupplierFilling/test20250710103433
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/simpleResearchSupplierFilling/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/simpleResearchSupplierFilling/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/simpleResearchSupplierFilling/test20250710103433 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/simpleResearchSupplierFilling/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/purchaseSurveyDetail/test20250710103433
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/purchaseSurveyDetail/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/purchaseSurveyDetail/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/purchaseSurveyDetail/test20250710103433 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/purchaseSurveyDetail/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/research-project-list/test20250710103434
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/research-project-list/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/research-project-list/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/research-project-list/test20250710103434 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/procurementResearch/research-project-list/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/wholeProcess_standard/bidDocUploadAuto/test20250710103435
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/wholeProcess_standard/bidDocUploadAuto/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/wholeProcess_standard/bidDocUploadAuto/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/wholeProcess_standard/bidDocUploadAuto/test20250710103435 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/wholeProcess_standard/bidDocUploadAuto/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/wholeProcess_standard/submitTenderDoc/test20250710103435
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/wholeProcess_standard/submitTenderDoc/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/wholeProcess_standard/submitTenderDoc/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/wholeProcess_standard/submitTenderDoc/test20250710103435 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/wholeProcess_standard/submitTenderDoc/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/wholeProcess_standard/encryptDecryptFile/test20250710103437
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/wholeProcess_standard/encryptDecryptFile/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/wholeProcess_standard/encryptDecryptFile/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/wholeProcess_standard/encryptDecryptFile/test20250710103437 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/wholeProcess_standard/encryptDecryptFile/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/wholeProcess_standard/noticeNet/test20250710103437
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/wholeProcess_standard/noticeNet/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/wholeProcess_standard/noticeNet/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/wholeProcess_standard/noticeNet/test20250710103437 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/wholeProcess_standard/noticeNet/test
+2025-07-10 10:36:15 | 处理备份目录：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/wholeProcess_standard/bidOpeningHallSupplier/test20250710103437
+2025-07-10 10:36:15 | 发现当前 test 目录，正在备份为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/wholeProcess_standard/bidOpeningHallSupplier/test_back_20250710103615
+2025-07-10 10:36:15 | 已备份当前 test 目录为：/home/yclProjectv4_5/hzyy/cp-data/try-cp/process/wholeProcess_standard/bidOpeningHallSupplier/test_back_20250710103615
+2025-07-10 10:36:15 | 成功将 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/wholeProcess_standard/bidOpeningHallSupplier/test20250710103437 恢复为 /home/yclProjectv4_5/hzyy/cp-data/try-cp/process/wholeProcess_standard/bidOpeningHallSupplier/test
+2025-07-10 10:36:15 | 恢复脚本执行完成。

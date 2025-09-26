@@ -1,0 +1,131 @@
+2025-07-10 11:00:21 | Step 1: 开始收集名为 'test' 的目录...
+2025-07-10 11:00:21 | 正在扫描目录树: /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard
+2025-07-10 11:00:23 | 发现 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidDocUploadAuto/test
+2025-07-10 11:00:23 | 发现 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/submitTenderDoc/test
+2025-07-10 11:00:23 | 发现 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/encryptDecryptFile/test
+2025-07-10 11:00:23 | 发现 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/noticeNet/test
+2025-07-10 11:00:23 | 发现 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallSupplier/test
+2025-07-10 11:00:23 | 发现 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/signUpVerify/test
+2025-07-10 11:00:23 | 发现 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/templateApplication/test
+2025-07-10 11:00:23 | 发现 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/supplierViewResult/test
+2025-07-10 11:00:23 | 发现 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/winNoticeSend/test
+2025-07-10 11:00:23 | 发现 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallEntry/test
+2025-07-10 11:00:23 | 发现 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/resultNotice/test
+2025-07-10 11:00:23 | 发现 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/eleSign/test
+2025-07-10 11:00:23 | 发现 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/winSure/test
+2025-07-10 11:00:23 | 发现 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/supplierSignUp/test
+2025-07-10 11:00:23 | 发现 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/projectSet/test
+2025-07-10 11:00:23 | 发现 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/fileTemplateAuto/test
+2025-07-10 11:00:23 | 发现 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/modifyNotice/test
+2025-07-10 11:00:23 | 发现 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallScreen/test
+2025-07-10 11:00:23 | Step 1: test 目录收集完成，结果已写入 need-cp-directories.txt
+2025-07-10 11:00:23 | Step 2: 开始处理每个 test 目录...
+2025-07-10 11:00:23 | 开始处理 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidDocUploadAuto/test
+2025-07-10 11:00:23 | 发现 public 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidDocUploadAuto/public
+2025-07-10 11:00:23 | 备份 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidDocUploadAuto/public20250710110023
+2025-07-10 11:00:23 | 将 test 目录拷贝到 public：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidDocUploadAuto/public
+2025-07-10 11:00:23 | 替换 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidDocUploadAuto/public/index.html 中的 'test' 为 'public'
+2025-07-10 11:00:23 | 替换完成：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidDocUploadAuto/public/index.html
+2025-07-10 11:00:23 | 开始处理 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/submitTenderDoc/test
+2025-07-10 11:00:23 | 发现 public 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/submitTenderDoc/public
+2025-07-10 11:00:23 | 备份 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/submitTenderDoc/public20250710110023
+2025-07-10 11:00:24 | 将 test 目录拷贝到 public：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/submitTenderDoc/public
+2025-07-10 11:00:24 | 替换 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/submitTenderDoc/public/index.html 中的 'test' 为 'public'
+2025-07-10 11:00:24 | 替换完成：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/submitTenderDoc/public/index.html
+2025-07-10 11:00:24 | 开始处理 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/encryptDecryptFile/test
+2025-07-10 11:00:24 | 发现 public 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/encryptDecryptFile/public
+2025-07-10 11:00:24 | 备份 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/encryptDecryptFile/public20250710110024
+2025-07-10 11:00:24 | 将 test 目录拷贝到 public：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/encryptDecryptFile/public
+2025-07-10 11:00:24 | 替换 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/encryptDecryptFile/public/index.html 中的 'test' 为 'public'
+2025-07-10 11:00:24 | 替换完成：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/encryptDecryptFile/public/index.html
+2025-07-10 11:00:24 | 开始处理 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/noticeNet/test
+2025-07-10 11:00:24 | 发现 public 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/noticeNet/public
+2025-07-10 11:00:24 | 备份 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/noticeNet/public20250710110024
+2025-07-10 11:00:25 | 将 test 目录拷贝到 public：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/noticeNet/public
+2025-07-10 11:00:25 | 替换 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/noticeNet/public/index.html 中的 'test' 为 'public'
+2025-07-10 11:00:25 | 替换完成：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/noticeNet/public/index.html
+2025-07-10 11:00:25 | 开始处理 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallSupplier/test
+2025-07-10 11:00:25 | 发现 public 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallSupplier/public
+2025-07-10 11:00:25 | 备份 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallSupplier/public20250710110025
+2025-07-10 11:00:26 | 将 test 目录拷贝到 public：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallSupplier/public
+2025-07-10 11:00:26 | 替换 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallSupplier/public/index.html 中的 'test' 为 'public'
+2025-07-10 11:00:26 | 替换完成：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallSupplier/public/index.html
+2025-07-10 11:00:26 | 开始处理 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/signUpVerify/test
+2025-07-10 11:00:26 | 发现 public 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/signUpVerify/public
+2025-07-10 11:00:26 | 备份 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/signUpVerify/public20250710110026
+2025-07-10 11:00:26 | 将 test 目录拷贝到 public：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/signUpVerify/public
+2025-07-10 11:00:26 | 替换 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/signUpVerify/public/index.html 中的 'test' 为 'public'
+2025-07-10 11:00:26 | 替换完成：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/signUpVerify/public/index.html
+2025-07-10 11:00:26 | 开始处理 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/templateApplication/test
+2025-07-10 11:00:26 | 发现 public 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/templateApplication/public
+2025-07-10 11:00:26 | 备份 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/templateApplication/public20250710110026
+2025-07-10 11:00:27 | 将 test 目录拷贝到 public：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/templateApplication/public
+2025-07-10 11:00:27 | 替换 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/templateApplication/public/index.html 中的 'test' 为 'public'
+2025-07-10 11:00:27 | 替换完成：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/templateApplication/public/index.html
+2025-07-10 11:00:27 | 开始处理 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/supplierViewResult/test
+2025-07-10 11:00:27 | 发现 public 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/supplierViewResult/public
+2025-07-10 11:00:27 | 备份 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/supplierViewResult/public20250710110027
+2025-07-10 11:00:27 | 将 test 目录拷贝到 public：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/supplierViewResult/public
+2025-07-10 11:00:27 | 替换 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/supplierViewResult/public/index.html 中的 'test' 为 'public'
+2025-07-10 11:00:27 | 替换完成：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/supplierViewResult/public/index.html
+2025-07-10 11:00:27 | 开始处理 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/winNoticeSend/test
+2025-07-10 11:00:27 | 发现 public 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/winNoticeSend/public
+2025-07-10 11:00:27 | 备份 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/winNoticeSend/public20250710110027
+2025-07-10 11:00:27 | 将 test 目录拷贝到 public：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/winNoticeSend/public
+2025-07-10 11:00:27 | 替换 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/winNoticeSend/public/index.html 中的 'test' 为 'public'
+2025-07-10 11:00:27 | 替换完成：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/winNoticeSend/public/index.html
+2025-07-10 11:00:27 | 开始处理 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallEntry/test
+2025-07-10 11:00:27 | 发现 public 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallEntry/public
+2025-07-10 11:00:27 | 备份 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallEntry/public20250710110027
+2025-07-10 11:00:27 | 将 test 目录拷贝到 public：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallEntry/public
+2025-07-10 11:00:27 | 替换 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallEntry/public/index.html 中的 'test' 为 'public'
+2025-07-10 11:00:27 | 替换完成：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallEntry/public/index.html
+2025-07-10 11:00:27 | 开始处理 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/resultNotice/test
+2025-07-10 11:00:27 | 发现 public 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/resultNotice/public
+2025-07-10 11:00:27 | 备份 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/resultNotice/public20250710110027
+2025-07-10 11:00:28 | 将 test 目录拷贝到 public：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/resultNotice/public
+2025-07-10 11:00:28 | 替换 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/resultNotice/public/index.html 中的 'test' 为 'public'
+2025-07-10 11:00:28 | 替换完成：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/resultNotice/public/index.html
+2025-07-10 11:00:28 | 开始处理 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/eleSign/test
+2025-07-10 11:00:28 | 发现 public 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/eleSign/public
+2025-07-10 11:00:28 | 备份 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/eleSign/public20250710110028
+2025-07-10 11:00:28 | 将 test 目录拷贝到 public：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/eleSign/public
+2025-07-10 11:00:28 | 替换 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/eleSign/public/index.html 中的 'test' 为 'public'
+2025-07-10 11:00:28 | 替换完成：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/eleSign/public/index.html
+2025-07-10 11:00:28 | 开始处理 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/winSure/test
+2025-07-10 11:00:28 | 发现 public 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/winSure/public
+2025-07-10 11:00:28 | 备份 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/winSure/public20250710110028
+2025-07-10 11:00:28 | 将 test 目录拷贝到 public：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/winSure/public
+2025-07-10 11:00:28 | 替换 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/winSure/public/index.html 中的 'test' 为 'public'
+2025-07-10 11:00:28 | 替换完成：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/winSure/public/index.html
+2025-07-10 11:00:28 | 开始处理 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/supplierSignUp/test
+2025-07-10 11:00:28 | 发现 public 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/supplierSignUp/public
+2025-07-10 11:00:28 | 备份 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/supplierSignUp/public20250710110028
+2025-07-10 11:00:29 | 将 test 目录拷贝到 public：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/supplierSignUp/public
+2025-07-10 11:00:29 | 替换 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/supplierSignUp/public/index.html 中的 'test' 为 'public'
+2025-07-10 11:00:29 | 替换完成：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/supplierSignUp/public/index.html
+2025-07-10 11:00:29 | 开始处理 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/projectSet/test
+2025-07-10 11:00:29 | 发现 public 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/projectSet/public
+2025-07-10 11:00:29 | 备份 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/projectSet/public20250710110029
+2025-07-10 11:00:29 | 将 test 目录拷贝到 public：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/projectSet/public
+2025-07-10 11:00:29 | 替换 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/projectSet/public/index.html 中的 'test' 为 'public'
+2025-07-10 11:00:29 | 替换完成：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/projectSet/public/index.html
+2025-07-10 11:00:29 | 开始处理 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/fileTemplateAuto/test
+2025-07-10 11:00:29 | 发现 public 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/fileTemplateAuto/public
+2025-07-10 11:00:29 | 备份 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/fileTemplateAuto/public20250710110029
+2025-07-10 11:00:30 | 将 test 目录拷贝到 public：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/fileTemplateAuto/public
+2025-07-10 11:00:30 | 替换 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/fileTemplateAuto/public/index.html 中的 'test' 为 'public'
+2025-07-10 11:00:30 | 替换完成：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/fileTemplateAuto/public/index.html
+2025-07-10 11:00:30 | 开始处理 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/modifyNotice/test
+2025-07-10 11:00:30 | 发现 public 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/modifyNotice/public
+2025-07-10 11:00:30 | 备份 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/modifyNotice/public20250710110030
+2025-07-10 11:00:30 | 将 test 目录拷贝到 public：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/modifyNotice/public
+2025-07-10 11:00:30 | 替换 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/modifyNotice/public/index.html 中的 'test' 为 'public'
+2025-07-10 11:00:30 | 替换完成：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/modifyNotice/public/index.html
+2025-07-10 11:00:30 | 开始处理 test 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallScreen/test
+2025-07-10 11:00:30 | 发现 public 目录：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallScreen/public
+2025-07-10 11:00:30 | 备份 public 目录为：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallScreen/public20250710110030
+2025-07-10 11:00:32 | 将 test 目录拷贝到 public：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallScreen/public
+2025-07-10 11:00:32 | 替换 /home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallScreen/public/index.html 中的 'test' 为 'public'
+2025-07-10 11:00:32 | 替换完成：/home/yclProjectv4_5/hzyy/yclApps/process/wholeProcess_standard/bidOpeningHallScreen/public/index.html
+2025-07-10 11:00:32 | Step 2: 所有 test 目录处理完成
