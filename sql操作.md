@@ -281,3 +281,24 @@ ALTER SEQUENCE gateway.gateway_log_id_seq RESTART WITH 1;
    ```
 
    
+   
+7. 查询表内存占用
+
+   ```sql
+   -- 查询所有表的大小（正确处理大小写）
+   SELECT 
+       n.nspname as schemaname,
+       c.relname as tablename,
+       pg_size_pretty(pg_total_relation_size(c.oid)) as total_size,
+       pg_size_pretty(pg_table_size(c.oid)) as table_size,
+       pg_size_pretty(pg_indexes_size(c.oid)) as index_size
+   FROM pg_class c
+   JOIN pg_namespace n ON n.oid = c.relnamespace
+   WHERE c.relkind = 'r'  -- 普通表
+   AND n.nspname NOT IN ('information_schema', 'pg_catalog')
+   AND n.nspname !~ '^pg_toast'
+   ORDER BY pg_total_relation_size(c.oid) DESC
+   LIMIT 20;
+   ```
+
+   
