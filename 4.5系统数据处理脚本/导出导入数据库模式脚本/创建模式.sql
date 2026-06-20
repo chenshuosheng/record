@@ -1,0 +1,12 @@
+CREATE SCHEMA "process_center" AUTHORIZATION "yuncailian";
+CREATE SCHEMA "xxl_job" AUTHORIZATION "yuncailian";
+CREATE SCHEMA "websocket" AUTHORIZATION "yuncailian";
+CREATE SCHEMA "usercenter" AUTHORIZATION "yuncailian";
+CREATE SCHEMA "upload_center" AUTHORIZATION "yuncailian";
+CREATE SCHEMA "tianyancha_info" AUTHORIZATION "yuncailian";
+CREATE SCHEMA "third_party_platform" AUTHORIZATION "yuncailian";
+CREATE SCHEMA "third_party_oa_docking" AUTHORIZATION "yuncailian";
+CREATE SCHEMA "sqlitelog" AUTHORIZATION "yuncailian";
+CREATE SCHEMA "sqlitedata" AUTHORIZATION "yuncailian";
+CREATE SCHEMA "selenium" AUTHORIZATION "yuncailian";
+CREATE SCHEMA "redxun_docking" AUTHORIZATION "yuncailian";

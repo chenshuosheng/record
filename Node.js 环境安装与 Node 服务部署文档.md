@@ -87,9 +87,13 @@ cd /opt/yclData/tools/node
 
 # 解压 Node.js 安装包到 /usr/local 目录
 sudo tar -xJf node-v16.20.2-linux-arm64.tar.xz -C /usr/local/
+or
+sudo tar -xJf node-v16.20.2-linux-x64.tar.xz -C /usr/local/
 
 # 重命名目录为 nodejs
 sudo mv /usr/local/node-v16.20.2-linux-arm64 /usr/local/nodejs
+or
+sudo mv /usr/local/node-v16.20.2-linux-x64 /usr/local/nodejs
 ```
 
 

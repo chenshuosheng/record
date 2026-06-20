@@ -10,6 +10,7 @@
 
 ```shell
 pm2 start ecosystem.config.js
+pm2 reload ecosystem.config.js
 
 [root@cd91 nodeService]# pm2 list
 ┌────┬─────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
@@ -259,7 +260,19 @@ pm2 show node-service
 
 4. 12 个 node-service 实例将自动启动
 
-   
+
+
+```
+`pm2 reload ecosystem.config.js`零停机重启，配置热更新生产环境部署
+
+`pm2 restart ecosystem.config.js`硬重启，服务短暂中断开发环境
+
+`pm2 start ecosystem.config.js`启动新进程，不停止旧的可能导致重复进程
+
+`pm2 delete app && pm2 start ecosystem.config.js`完全重新启动配置重大变更时
+```
+
+
 
 ## 故障排除
 

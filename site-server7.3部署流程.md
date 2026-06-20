@@ -70,6 +70,8 @@
      #成功访问，执行命令：
      docker cp site server容器id:/var/www/wwwroot 挂载目录
      
+     docker cp site-server:/var/www/wwwroot /home/4.5/data/sscms7.3_pg/
+     
      #若失败，查看原因
      ```
 

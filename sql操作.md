@@ -106,6 +106,20 @@ ALTER SEQUENCE gateway.gateway_log_id_seq RESTART WITH 1;
        MAXVALUE 9223372036854775807
        CACHE 1
        NO CYCLE;
+       
+   -- 1. currval(): 获取当前序列值（不改变序列）
+   SELECT currval('process_center.data_dictionary_id_seq'::regclass);
+   
+   -- 2. lastval(): 获取最近一次nextval()调用的值
+   SELECT nextval('process_center.data_dictionary_id_seq'::regclass);
+   
+   SELECT lastval();  -- 返回刚才nextval()的值
+   
+   -- 3. 查找当前最大值
+   SELECT MAX(id) FROM process_center.data_dictionary;
+   
+   -- 4. 设置，假设最大值为 100
+   SELECT setval('process_center.data_dictionary_id_seq', 824);
    ```
 
    

@@ -1,0 +1,124 @@
+
+    /**
+     * 打印当前DOM结构用于调试
+     */
+    private void debugDOMStructure(RemoteWebDriver webDriver, String stepName) {
+        try {
+            LOG.info("=== 开始DOM结构调试 [{}] ===", stepName);
+
+            JavascriptExecutor js = (JavascriptExecutor) webDriver;
+
+            // 方法1: 获取完整的outerHTML
+            String fullDOM = (String) js.executeScript("return document.documentElement.outerHTML;");
+            LOG.info("完整DOM结构长度: {}", fullDOM.length());
+
+            // 打印完整DON
+            LOG.info("---------------------------------------------------------------------------------------------------");
+            LOG.info("完整DOM: {}", fullDOM);
+            LOG.info("---------------------------------------------------------------------------------------------------");
+
+            // 方法2: 获取body内容
+            String bodyHTML = (String) js.executeScript("return document.body.innerHTML;");
+            LOG.info("Body内容长度: {}", bodyHTML.length());
+
+            // 方法3: 获取所有框架信息
+            Object framesInfo = js.executeScript(
+                    "var frames = [];" +
+                            "try { frames = document.querySelectorAll('iframe, frame'); } catch(e) {}" +
+                            "var result = [];" +
+                            "for (var i = 0; i < frames.length; i++) {" +
+                            "   result.push(frames[i].tagName + " +
+                            "               (frames[i].id ? '#\" + frames[i].id + \"' : '') + " +
+                            "               (frames[i].name ? '[\" + frames[i].name + \"]' : ''));" +
+                            "}" +
+                            "return result;"
+            );
+            LOG.info("页面中的框架: {}", JSONObject.toJSONString(framesInfo));
+
+            // 方法4: 获取关键元素状态
+            String[] keyElements = {
+                    "name='myform'", "id='editor'", "id='HtmlEdit'",
+                    "name='Content'", "id='setMode0'", "id='setMode1'"
+            };
+
+            for (String selector : keyElements) {
+                try {
+                    Object elementExists = js.executeScript(
+                            "return document.querySelector('" + selector + "') !== null;"
+                    );
+                    LOG.info("元素 {} 存在: {}", selector, elementExists);
+                } catch (Exception e) {
+                    LOG.debug("检查元素 {} 失败: {}", selector, e.getMessage());
+                }
+            }
+
+            LOG.info("=== DOM结构调试结束 [{}] ===\n", stepName);
+
+        } catch (Exception e) {
+            LOG.warn("DOM结构调试失败 [{}]: {}", stepName, e.getMessage());
+        }
+    }
+
+    /**
+     * 获取并保存当前DOM结构到日志（用于详细分析）
+     */
+    private void saveDOMForAnalysis(RemoteWebDriver webDriver, String context) {
+        try {
+            JavascriptExecutor js = (JavascriptExecutor) webDriver;
+            String currentDOM = (String) js.executeScript("return document.documentElement.outerHTML;");
+
+            // 这里可以保存到文件或详细日志
+            LOG.debug("=== DOM结构分析 [{}] ===", context);
+            LOG.debug("DOM长度: {}", currentDOM.length());
+            LOG.debug("=== DOM结构分析结束 ===\n");
+
+        } catch (Exception e) {
+            LOG.warn("保存DOM结构失败 [{}]: {}", context, e.getMessage());
+        }
+    }
+
+    /**
+     * 检查关键元素的DOM状态
+     */
+    private void checkCriticalElementsDOM(RemoteWebDriver webDriver, String context) {
+        try {
+            LOG.info("=== 关键元素DOM检查 [{}] ===", context);
+
+            JavascriptExecutor js = (JavascriptExecutor) webDriver;
+
+            // 检查关键表单元素
+            String[] criticalSelectors = {
+                    "input[name='Title']",
+                    "textarea[name='Content']",
+                    "select[name='ClassID']",
+                    "input[name='Author']",
+                    "input[name='Submit']",
+                    "input[name='add']"
+            };
+
+            for (String selector : criticalSelectors) {
+                try {
+                    Object elementInfo = js.executeScript(
+                            "var elem = document.querySelector('" + selector + "');" +
+                                    "if (!elem) return '元素不存在';" +
+                                    "return {" +
+                                    "   tagName: elem.tagName," +
+                                    "   id: elem.id || '无'," +
+                                    "   name: elem.name || '无'," +
+                                    "   type: elem.type || '无'," +
+                                    "   value: elem.value ? elem.value.substring(0, 50) : '空'," +
+                                    "   visible: elem.offsetWidth > 0 && elem.offsetHeight > 0" +
+                                    "};"
+                    );
+                    LOG.info("元素 {}: {}", selector, elementInfo);
+                } catch (Exception e) {
+                    LOG.warn("检查元素 {} 失败: {}", selector, e.getMessage());
+                }
+            }
+
+            LOG.info("=== 关键元素DOM检查结束 ===\n");
+
+        } catch (Exception e) {
+            LOG.warn("关键元素DOM检查失败: {}", e.getMessage());
+        }
+    }
